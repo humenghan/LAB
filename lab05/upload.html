@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 text-center">
+            <h2>Share Your Travels</h2>
+            <em class="small"> Let us know where you've been</em>
+        </div>
+        <nav class="col-md-8">
+            <br/>
+            <ul class="nav row text-center">
+                <li class="nav-item m-3 col-sm-2"><a class="nav-link text-dark" href="upload.html">Upload</a></li>
+                <li class="nav-item m-3 col-sm"><a class="nav-link text-dark" href="#">Related Photos</a></li>
+                <li class="nav-item m-3 col-sm-3"><a class="nav-link text-dark" href="#">Reviews</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="border p-3">
+        <div>
+            <h2>Photo Details</h2>
+
+            <label for="title">Title</label>
+            <input name="title" type="text" class="form-control" id="title"
+                   placeholder="Give your photo a descriptive name">
+            <br>
+            <div>
+                <label for="description">Description</label>
+                <textarea rows="2" id="description" class="form-control"
+                          placeholder="Adding a rich description will help search results"></textarea>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="continent">Continent</label>
+                <select class="form-control" id="continent">
+                    <option value="Choose continent"></option>
+                    <option value="America"></option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select id="country" class="form-control">
+                    <option value="Choose country"></option>
+                    <option value="America"></option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="city">City</label>
+                <input type="text" name="city" id="city" class="form-control">
+            </div>
+            <br>
+            <div>
+                <label>Copyright?</label>
+                <div class="copyright">
+                    <label> <input type="radio" name="copyright">All rights reserved</label>
+                </div>
+                <div class="copyright">
+                    <label><input type="radio" name="copyright" checked>Creative Commons</label>
+                </div>
+            </div>
+            <br>
+            <div>
+                <label>Creative Commons Types</label>
+                <div class="form-check">
+                    <label class="form-check-label">
+                        <input type="checkbox" name="checkbox" value="Attribution">Attribution
+                    </label>
+                    <label class="form-check-label">
+                        <input type="checkbox" name="checkbox" value="Noncommercial">Noncommercial
+                    </label>
+                    <label class="form-check-label">
+                        <input type="checkbox" name="checkbox" value="No Derivative Works">No Derivative Works
+                    </label>
+                </div>
+            </div>
+            <br>
+            <label>
+                <input type="checkbox" name="Accept">I accept the software license
+            </label>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="rate">Rate this photo:</label>
+                    <input type="number" class="form-control" id="rate" name="rate">
+                </div>
+                <div class="col-md-8">
+                    <label for="color">Color Collection:</label>
+                    <input type="text" class="form-control" id="color" name="color">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md">
+                    <label for="date">Dated Taken:</label>
+                    <input type="text" class="form-control" id="date" name="date">
+                </div>
+                <div class="col-md">
+                    <label for="time">Time Taken:</label>
+                    <input type="text" class="form-control" id="time" name="time">
+                </div>
+            </div>
+            <br>
+        </div>
+        <input type="submit" name="submit" class="bg-dark text-white rounded" value="Submit">
+        <input type="reset" name="reset" class="bg-dark text-white rounded" value="Clear">
+    </div>
+</div>
+
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>

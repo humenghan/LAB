@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+}
+input{
+    display: inline;
+    width: 150px;
+    height: 30px;
+    margin: 0.5em;
+
+}
+
+div{
+    text-align: center;
+    margin: 0.5em;
+}
+#select1,#select2,#commit,#table{
+    width: 300px;
+    height: 30px;
+    border-radius: 5% ;
+}
+#table{
+    width: 100%;
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    background-color: grey;
+    color: whitesmoke;
+}
+tr:nth-child(odd) td{
+    background-color: lightgrey;
+}
+td{
+    padding:0 0.5em ;
+}
